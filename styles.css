@@ -65,6 +65,18 @@ h2 {
     text-align: left;
 }
 
+.song-info ul{
+    list-style-type: none;
+}
+.song-info a{
+    text-decoration: none;
+    color: grey;
+    transition: color 0.3s;
+}
+
+.song-info a:hover{
+    color:#bfe5F7;
+}
 
 /* --- SIZING & POSITIONING ---*/
 
@@ -126,7 +138,6 @@ body {
 
 #center-content {
     box-sizing: border-box;
-    width: 100%;
     height: 80%;
     margin: 10px;
     overflow: auto;
@@ -142,3 +153,19 @@ body {
     grid-column-end: 4;
 }
 
+.song-info ul {
+    display:grid;
+    width: auto;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+.song-info li{
+    width:100px;
+}
+
+.songDiv {
+    align-items: center;
+}

@@ -1,0 +1,73 @@
+{"data":[
+    {
+        "shows":[
+            {
+                "date":"01.01.1998",
+                "name":"generic show name",
+                "venue":"string",
+                "time":"20:00"
+            },
+            {
+                "date":"a date",
+                "name":"generic show name",
+                "venue":"a generic venue",
+                "time":"20:00"
+            }
+        ],
+        "songs":[
+            {
+                "name":"I hope this feeling doesn't last",
+                "year":2019,
+                "listen":[
+                    {
+                        "spotify_url":"url",
+                        "apple_music_url":"url",
+                        "youtube_url":"url",
+                        "bandcamp_url":"url"
+                    }
+                ],
+                "lyrics":"string",
+                "about":"string"
+            },
+            {
+                "name":"i'll believe it",
+                "year":2019,
+                "listen":[
+                    {
+                        "spotify_url":"url",
+                        "apple_music_url":"url",
+                        "youtube_url":"url",
+                        "bandcamp_url":"url"
+                    }
+                ],
+                "lyrics":"string",
+                "about":"string"
+            }
+        ],
+        "visuals":[
+            {
+
+            }
+        ],
+        "news":[
+            {
+                "post_date":"01.01.1998",
+                "post_time":"20:00",
+                "title":"string",
+                "content":"html"
+            }, 
+            {
+                "post_date":"01.01.1998",
+                "post_time":"20:00",
+                "title":"string",
+                "content":"html"
+            }
+        ],
+        "about":[
+            {
+                "title":"string",
+                "content":"html"
+            }
+        ]
+    }
+]}
