@@ -59,13 +59,14 @@ h2 {
 
 .footer{
     border: none;
+    font-style: italic;
 }
 
 .showDiv {
     text-align: left;
 }
 
-.song-info ul{
+ul{
     list-style-type: none;
 }
 .song-info a{
@@ -76,6 +77,14 @@ h2 {
 
 .song-info a:hover{
     color:#bfe5F7;
+}
+
+.song-name-list {
+    transition: color 0.3s;
+}
+
+.song-name-list:hover{
+    color: #bfe5F7;
 }
 
 /* --- SIZING & POSITIONING ---*/
@@ -168,4 +177,12 @@ body {
 
 .songDiv {
     align-items: center;
+}
+
+.songListDiv {
+    text-align: left;
+}
+
+.songListEl {
+    line-height: 300%;
 }
