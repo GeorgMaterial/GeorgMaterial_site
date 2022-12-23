@@ -1,0 +1,195 @@
+
+/*  --- GENERAL STYLING (colours etc) --- */
+
+html {
+    height: 100vmax;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 10pt;
+    text-align: center;
+    font-family: 'Source Code Pro','Inconsolata','Courier New', monospace;
+    background: linear-gradient( #FDD5F5, 30%, #FFF);
+}
+
+.header a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+h1 {
+    font-size: 3.5em;
+    letter-spacing: 0.5em;
+    background: none;
+}
+
+#main-title {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.5s;
+}
+
+#main-title:hover {
+    color: white;
+}
+
+#header-menu {
+    background: none;
+    list-style: none;
+}
+
+#header-menu li {
+    border: 3px solid #fff;
+    transition: background-color 0.3s;
+}
+
+#header-menu li:hover {
+    background-color: #bfe5F7;
+}
+
+h2 {
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    font-variant: small-caps;
+}
+
+#center-content {
+    background: none;
+}
+
+#footer{
+    border: none;
+    font-style: italic;
+}
+
+.showDiv {
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.listen-link a{
+    text-decoration: none;
+    color: grey;
+    transition: color 0.3s;
+}
+
+.listen-link a:hover{
+    color:#bfe5F7;
+}
+
+#song-title-list li {
+    transition: color 0.3s;
+}
+
+#song-title-list li:hover{
+    color: #bfe5F7;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 1.5em;
+    letter-spacing: 5pt;
+}
+
+#song-year {
+    font-style: italic;
+    color: #afafaf;
+    padding: 5px;
+}
+
+#center-heading {
+    font-size: 2.5em;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-left: 20px;
+    margin: 20px;
+    letter-spacing: 20px;
+    display:block;
+}
+
+/* --- SIZING & POSITIONING ---*/
+#header-menu {
+    width: auto;
+    padding: 0px;
+    display: inline-block;
+}
+
+.header-link {
+    float: left;
+    width: 100px;
+    padding: 10px 0px;
+    margin: 0 30px;
+}
+
+#center-block {
+    width: auto;
+    height: 60vmax;
+    display: block;
+    margin: 30px;
+}
+
+#header-block {
+    height: 20vmax;
+    margin: 20px;
+}
+
+#footer {
+    display: block;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#song-links {
+    display: inline-block;
+    margin: auto;
+}
+
+.listen-link {
+    float: left;
+    margin: 5px 20px;
+    width: 70px;
+}
+
+#song-blurb {
+    font-style: italic;
+    margin: 15px 20px 40px 20px;
+}
+
+#center-content {
+    overflow: auto;
+    margin: auto;
+    display: block;
+    position: relative;
+
+}
+
+.song-title-list {
+    width: 350px;
+    height: 75px;
+    display:flex;
+    flex-flow: row wrap;
+    overflow: auto;
+}
+
+
+#center-heading-div {
+    background-color: #FDD5F5;
+    border-radius: 50%;
+    position: relative;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.song-title-list li {
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+}
